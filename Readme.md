@@ -80,6 +80,8 @@ docker run -d \
 3. Add **DISCORD\_WEBHOOK** and **RAPIDAPI\_KEY** in Railway's **Environment Variables**.
 4. Every push = automatic deployment.
 
+![Deployed Application on Railway](./image/image.png)
+
 ---
 
 ## 🔄 Automated Scheduler
@@ -97,6 +99,10 @@ You can change this in `scheduler.go`.
 ## 🔑 Security & Secrets
 
 * Local dev: `.env` file
+```# Create .env file in root directory of this project with variables
+- RAPIDAPI_KEY
+- DISCORD_WEEBHOOK
+```
 * Production: Railway **Environment Variables**
 * **Never hardcode secrets** (DevOps best practice)
 
