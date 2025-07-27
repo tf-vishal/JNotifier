@@ -21,7 +21,7 @@ func StartJobScheduler() {
 }
 
 func checkJobs() {
-	keywords := []string{"Network Engineer", "System Administrator", "DevOps", "Cloud", "CCNA"}
+	keywords := []string{"DevOps", "CCNA", "devops", "System Administrator", "System Admin", "Cloud", "DevOps Engineer", "DevOps Intern", "DevOps Trainee", "DevOps Fresher", "DevOps Remote"}
 	for _, keyword := range keywords {
 		go func(kw string) {
 			jobs := api.FetchFromJsearch(kw)

@@ -7,7 +7,7 @@ import (
 )
 
 func LoadEnv() {
-	//err := godotenv.Load(".env")
+	//err := godotenv.Load()
 	//In Railway, .env is not used, so we skip loading it
 	//If running locally, .env is used, so we load it
 	//This way, we can use the same code for both Railway and local development
